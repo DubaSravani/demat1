@@ -1,0 +1,24 @@
+
+<ul>
+  {% for i in a %}
+  <h1>{{i.user_name}} details</h1>
+  <li>user name: {{i.user_name}}</li>
+  <li>user mobile number: {{i.user_mobile_number}}</li>
+  <li>place: {{i.place}}</li>
+  <li>email: {{i.email}}</li>
+  <li>profile picture: {{i.profile_picture}}</li><br>
+  {%endfor%}
+</ul>
+
+<h1>{{b.user_name}} mail id: {{b.email}}</h1>
+<h1>{{c.user_name}} mail id: {{c.email}}</h1>
+
+<h1> getting data from chennai</h1><br>
+	<table border=1px>
+  <tr>
+    <th>place</th>
+  </tr>
+  <tr>{% for i in d %}
+		<td>{{i.user_name}}</td>
+  </tr>{%endfor%}
+</table>

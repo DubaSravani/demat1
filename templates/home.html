@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>book shop</title>
+        <link rel="stylesheet" href={% static "css/web.css"% }>
+        <link rel="stylesheet" href='{% static "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" %}'>
+        <body>
+            <center>
+                <h1 id="head">WELCOME TO SHOP</h1>
+                <form method="post">
+                    <p id="user">user name<br>
+                        <input type="text" name="username">
+                        </p>
+                        <p id="pass">password<br>
+                            <input type="password" name="pwd">
+                            </p>
+                            <button type="submit" form="nameform" value="submit" align="center"><a href="style.css">submit<a></button>
+                            </form>
+                            </center>
+                            </body>
+                            <body class="container">
+                                <i class="glyphicon glyphicon-envelope"style="font: size 40px;color:black;"></i><br>
+                                <i class="glyphicon glyphicon-thumbs-up"style="font: size 40px;color:black;margin-bottom:20px;"></i>
+                        <ol>{%for i in data%}
+                          <li>{{i.book_name}}</li>
+                          <li>{{i.author_name}}</li>
+
+                         {%endfor%}
+                       </ol>
+                                </body>
+                                </html>

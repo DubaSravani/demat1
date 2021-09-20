@@ -1,0 +1,11 @@
+{% extends 'flower.html' %}
+{% block content %}
+<h1> hi i am plant</h1>
+<p> how r u all</p>
+<form action={% url 'root' %}>
+  <input type="text" placeholder="firstname" name='name'><br>
+  <input type="text" placeholder="number1" name='number1'><br>
+  <input type="text" placeholder="number2" name='number2'><br>
+  <input type="submit" value='submit'><br>
+  </form>
+  {% endblock %}

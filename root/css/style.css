@@ -1,0 +1,81 @@
+body
+{
+   background-color:GhostWhite;
+}
+footer
+{  background-color: BurlyWood;}
+
+header
+{  background-color: BurlyWood;}
+.column{
+    float:right;
+    width:10% ;
+    /border: 2px solid black;/
+    font-size:10px;
+    decoration: none;
+
+    opacity:80%
+}
+
+p {text-align: justify;
+   margin-left: 20px;}
+h1 {color :Chocolate;
+   text-decoration:underline;
+    text-decoration-color: green; }
+
+.logo
+{
+   float:left;
+
+    width:50% ;
+}
+.nav:after
+{
+
+   width=100% ;
+  display: table;
+  border: 2px solid black;
+  clear: both;
+  decoration:none
+}
+
+#header {
+   float:right;
+   width:10%;
+
+
+}
+.column2{
+    float:left;
+    width:25% ;
+    /border: 2px solid black;/
+    font-size:25px;
+    decoration: none;
+
+    opacity:80%
+}
+
+.nav2:after
+{
+
+   width=100% ;
+  display: table;
+  border: 2px solid black;
+  clear: both;
+  decoration:none
+}
+column3{
+    float:left;
+    width:50% ;
+    /border: 2px solid black;/
+    font-size:20px;
+    decoration: none;
+    margin-left: auto;
+}
+
+.nav3:after
+{
+
+   width=100% ;
+  displ
+}
